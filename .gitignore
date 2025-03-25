@@ -1,0 +1,15 @@
+# Ignore Terraform state and provider files
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore sensitive variable files
+*.tfvars
+*.auto.tfvars
+*.env
+
+# Ignore logs and cache files
+**/.terraform.lock.hcl
+*.tfstate.backup
+
+./terraform-beginner-to-advanced-resource
